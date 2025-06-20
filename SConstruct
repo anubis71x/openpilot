@@ -218,7 +218,8 @@ if GetOption('compile_db'):
   env.CompilationDatabase('compile_commands.json')
 
 # Setup cache dir
-cache_dir = '/data/scons_cache' if AGNOS else '/tmp/scons_cache'
+import os
+cache_dir = os.path.expanduser("~/scons_cache") if not AGNOS else '/data/scons_cache'
 CacheDir(cache_dir)
 Clean(["."], cache_dir)
 
