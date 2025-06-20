@@ -10,10 +10,6 @@
     path = opendbc_repo
     url = https://github.com/anubis71x/opendbc.git
     branch = master
-[submodule "rednose_repo"]
-    path = rednose_repo
-    url = https://github.com/commaai/rednose.git
-    branch = master
 [submodule "teleoprtc_repo"]
     path = teleoprtc_repo
     url = https://github.com/commaai/teleoprtc.git
@@ -22,3 +18,6 @@
     path = tinygrad_repo
     url = https://github.com/tinygrad/tinygrad.git
     branch = master
+[submodule "rednose_repo"]
+	path = rednose_repo
+	url = https://github.com/commaai/rednose.git
